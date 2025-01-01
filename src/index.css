@@ -1,0 +1,21 @@
+@import './assets/fonts/font.css';
+
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: night --default;
+ }
+
+:root {
+  --color-primary: #9DFE00;
+  --color-secondary: #14D9E6;
+}
+
+* {
+  font-family: 'TT Travels', sans-serif;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
