@@ -10,7 +10,7 @@ const Error = () => {
         <h1 className="text-5xl font-bold text-red-600 mb-4">Page Not Found</h1>
         <p className="text-lg mb-6"> Sorry, the page you're looking for doesn't exist.</p>
         <p className="text-sm text-gray-500 mb-8">Please check the URL or go back to the homepage.</p>
-        <button className="btn btn-primary hover:btn-secondary text-white" onClick={() => navigate("/")}>
+        <button className="btn btn-primary hover:btn-secondary text-white" onClick={() => navigate("/Rick-and-Morty-Wiki")}>
           Go to Homepage
         </button>
       </div>
