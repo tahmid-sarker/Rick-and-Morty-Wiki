@@ -6,19 +6,19 @@ import Error from "../pages/Error";
 
 export const Router = createBrowserRouter([
     {
-        path: "/",
+        path: "/Rick-and-Morty-Wiki",
         Component: Home,
     },
     {
-        path: "/cast",
+        path: "/Rick-and-Morty-Wiki/cast",
         Component: Cast,
     },
     {
-        path: "/cast-details/:id",
+        path: "/Rick-and-Morty-Wiki/cast-details/:id",
         Component: CastDetails,
     },
     {
-        path: "/*",
+        path: "/Rick-and-Morty-Wiki/*",
         Component: Error,
     },
 ])
