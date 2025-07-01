@@ -31,7 +31,7 @@ const Cast = () => {
                 <div className='flex justify-center'>
                     <div className="grid grid-cols-2 md:grid-cols-5 gap-10 md:gap-5">
                         {characters.map((character, index) => (
-                            <div key={index} onClick={() => navigate(`/cast-details/${character.id}`)} className='border p-2 mt:p-4 border-primary w-32 md:w-64 rounded-br-4xl cursor-pointer'>
+                            <div key={index} onClick={() => navigate(`/Rick-and-Morty-Wiki/cast-details/${character.id}`)} className='border p-2 mt:p-4 border-primary w-32 md:w-64 rounded-br-4xl cursor-pointer'>
                                 <img src={character.image} alt={character.name} className='w-full h-auto' />
                                 <p className='text-[10px] md:text-sm text-white mt-2 truncate'>{character.name}</p>
                             </div>
